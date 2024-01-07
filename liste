@@ -28,4 +28,15 @@ print(x)
 y=x.copy()
 print("y:",y)
 print("x:",x)
+-------------------------
+x=[3.14,3546,21354,"python","c++",254,'*',"java","ismek"]
+
+y={
+    "pi":3.14,
+    "1":"Python",
+    2:"Java",
+    3:"istanbul"
+}
+print(y)
+print(y["pi"])
 
