@@ -66,5 +66,17 @@ sehirler={
 }
 
 print(sehirler["istanbul"]["2"])
+----------------------------------
+x=[1,2,3,4,5]
+y=["İstanbul","Ankara","İzmir","Antalya","Bursa"]
+z={
+    x[0]:y[0],
+    x[1]:y[1],
+    x[2]:y[2],
+    x[3]:y[3],
+    x[4]:y[4]
+}
+for i,b in z.items():
+    print(i,b)
 
 
