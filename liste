@@ -50,4 +50,21 @@ sehirler={
 print(sehirler)
 for x,y in sehirler.items():
   print(x,y)
+--------------------------------
+sehirler={
+    "denizli":{
+        "1":"Horoz",
+        "2":"Toz",
+        "3":"Pamukkale Üni"
+    },
+    "istanbul":{
+        "1":"Ayasofya CAmi",
+        "2":"Galata Kulesi",
+    },
+    "Ankara":"Başkent",
+    "Edirne":"Selimiye Cami"
+}
+
+print(sehirler["istanbul"]["2"])
+
 
