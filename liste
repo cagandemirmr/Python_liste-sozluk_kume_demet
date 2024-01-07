@@ -78,5 +78,10 @@ z={
 }
 for i,b in z.items():
     print(i,b)
+---------------------------------
+import datetime
 
+time=datetime.datetime.now()
+print(time)
+#Kütüphane import etme örneği özellikle zaman fonksiyonunu
 
