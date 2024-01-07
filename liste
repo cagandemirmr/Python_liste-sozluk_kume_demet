@@ -101,4 +101,26 @@ while True:
     x=int(input("Sayi:"))
     hesapla(x)
 #faktöriyel fonksiyonu
+------------------
+def hesapla(gelen):
+    sonuc=1
+    for i in range(1,gelen+1):
+        sonuc*=i #sonuc=sonuc*i
+    return sonuc
+def metod(deger1,deger2,deger3):
+    print(deger1*2,deger2/5,deger3-10)
+
+while True:
+    x=int(input("Sayi:"))
+    y=hesapla(x)
+    print(y)
+    metod(y,20,45)
+----------------------------
+import math
+
+def hesapla(deger):
+    sonuc=math.sqrt(deger)
+    return sonuc
+
+print(hesapla(int(input("Sayi:"))))
 
