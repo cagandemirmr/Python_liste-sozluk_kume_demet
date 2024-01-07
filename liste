@@ -17,3 +17,15 @@ if "python" and 254 in x:
     print("listede bulundu")
 else:
     print("listede bulunamadı")
+------------------------
+x=[3.14,3546,21354,"python","c++",254,'*',"java","ismek"]
+x.append("pascal")
+print(x)
+x.remove(21354)
+print(x)
+--------------------------------
+=[3.14,3546,21354,"python","c++",254,'*',"java","ismek"]
+y=x.copy()
+print("y:",y)
+print("x:",x)
+
