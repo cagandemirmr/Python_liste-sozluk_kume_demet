@@ -39,4 +39,15 @@ y={
 }
 print(y)
 print(y["pi"])
+----------------------------
+sehirler={
+    1:"İzmir",
+    2:"İstanbul",
+    3:"Ankara",
+    4:"Muğla",
+    5:"Kastamonu"
+}
+print(sehirler)
+for x,y in sehirler.items():
+  print(x,y)
 
