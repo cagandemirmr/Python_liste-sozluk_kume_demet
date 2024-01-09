@@ -1,0 +1,30 @@
+cagan=["Yahya","It","Bürokrat","Psikolog","Darkness"]
+isim=cagan.index("Darkness")
+cagan.append("Sexy")
+print(cagan)
+-------------------
+cagan=["Yahya","It","Bürokrat","Psikolog","Darkness"]
+isim=cagan.index("Darkness")
+cagan.append("Sexy")
+cagan.append("btk")
+cagan.insert(5,"Bencil")
+print(cagan)
+#insert ile istediğimiz index e istediğimiz değeri ekleriz.Eski değer bir sonraki index'e itelenir.
+------------------
+L=[]
+for i in range(0,5):
+    sayi=int(input("Sayi Giriniz:"))
+    L.append(sayi)
+for i in range(0,5):
+    print("L[",i,"]",L[i])
+  #Sonuç:
+Sayi Giriniz:9
+Sayi Giriniz:5
+Sayi Giriniz:4
+Sayi Giriniz:3
+Sayi Giriniz:2
+L[ 0 ] 9
+L[ 1 ] 5
+L[ 2 ] 4
+L[ 3 ] 3
+L[ 4 ] 2
