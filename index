@@ -1,0 +1,4 @@
+cagan=["Yahya","It","Bürokrat","Psikolog","Darkness"]
+isim=cagan.index("Darkness")
+print(isim)
+#.index yaptığımızda direkt listeeki elemanın numarasını öğreniriz.
