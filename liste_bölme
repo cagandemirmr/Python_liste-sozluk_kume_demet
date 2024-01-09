@@ -1,0 +1,3 @@
+cagan=["Yahya","It","Bürokrat","Psikolog","Darkness"]
+isim=cagan.index("Darkness")
+print(cagan[2:],"\n",cagan[:3],"\n",cagan[::1],"\n",cagan[::-1],"\n",cagan[::2],"\n",cagan[::-2])
