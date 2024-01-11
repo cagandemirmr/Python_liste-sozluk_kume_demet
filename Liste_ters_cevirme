@@ -1,0 +1,6 @@
+L=[0,1,2,3,4,5,6,7]
+L.reverse()
+#Bu fonksiyonla liste komple ters çevrilir.
+print(L[::-1])
+#Bu fonksiyonla sadece liste ters gösterilir.
+print(L)
