@@ -1,0 +1,6 @@
+A=[0,1,2,3,4,5,6,7,"ta","m","sevgil0"]
+
+print(A.count(6))
+#Listede kaç adet o elemandan var onu öğrenmek için kullanırız.
+print(len(A))
+#Listede kaç eleman var onu öğrenmek için idealdir.
