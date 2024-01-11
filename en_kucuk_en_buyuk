@@ -1,0 +1,13 @@
+L=[12,333,45,5,12345,]
+print(min(L))
+print(max(L))
+
+#min ve max ile en büyük ve en küçük değerleri buluruz.
+-------------------
+UYGULAMA
+L=[]
+Topla=0
+for i in range(0,5):
+    sayi=int(input("Bir sayi giriniz:"))
+    L.append(sayi)
+    Topla+=sayi
