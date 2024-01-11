@@ -1,0 +1,9 @@
+L1=[0,1,2,3,4]
+L2=[5,6,7,8,9]
+L3=L1+L2
+L1.extend(L2)
+
+print(L3)
+print(L1+L2)
+print(L1)
+#Bu 3 yöntemle liste birleştirme yapılır.Extend fonksiyonunun tek farkı Listedeki herşey L1 listesinde toplanması.
