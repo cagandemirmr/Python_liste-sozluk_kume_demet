@@ -1,0 +1,71 @@
+shopping_list=["apple","Juice","Ball","Book"]
+shopping_list.append("water")
+shopping_list.insert(2,"banana")
+shopping_list.remove("apple")
+shopping_list[3]="prezervatif"
+#Bir listede istediğimiz şeyi başka bir elemanla değiştirmek için kullanırız.
+print(shopping_list)
+--------------------------
+list1=[1,2,3,4,5]
+
+list_sqr=[]
+for i in range (5):
+    list_sqr.append(list1[i]**2)
+    
+print(list_sqr)'''
+-------------------------
+#List Comprehension Örneği
+list1=[1,2,3,4,5]
+list_sqr=[num**2 for num in list1]
+
+print(list_sqr)
+-----------------------------
+
+List comprehension olarak adlandırılan bir yöntemdir.Bu yöntemle her işlem
+daha az kodla halledilmeye çalışılır.
+List comprehension, Python programlama dilinde listenin hızlı ve kompakt bir şekilde oluşturulmasını sağlayan bir yapıdır. Bu yapı, bir döngü ve bir if ifadesini içerir ve bu sayede liste elemanlarını tanımlama işlemlerini tek satırda gerçekleştirmenizi sağlar.
+
+List comprehension'ın temel yapısı şu şekildedir:
+
+python
+Copy code
+[expression for item in iterable if condition]
+Bu yapı şu adımları içerir:
+
+expression: Her bir eleman üzerinde uygulanan ifade.
+item: Döngü değişkeni, her bir elemanı temsil eder.
+iterable: Döngünün dolaşacağı veri yapısı, genellikle bir liste, tuple veya dizi.
+condition (opsiyonel): Bir koşul ifadesi, sadece belirli koşulu sağlayan elemanları dahil etmek istiyorsanız kullanılır.
+Örneklerle açıklamak gerekirse:
+
+Basit Liste Oluşturma:
+
+python
+Copy code
+squares = [x**2 for x in range(5)]
+# Output: [0, 1, 4, 9, 16]
+Koşullu Liste Oluşturma:
+
+python
+Copy code
+even_squares = [x**2 for x in range(10) if x % 2 == 0]
+# Output: [0, 4, 16, 36, 64]
+String Elemanlarından Liste Oluşturma:
+
+python
+Copy code
+words = ["hello", "world", "python"]
+upper_words = [word.upper() for word in words]
+# Output: ['HELLO', 'WORLD', 'PYTHON']
+List comprehension'lar, kodunuzu daha okunabilir ve sade hale getirmenin yanı sıra, birçok durumda performans avantajları da sağlar. Ancak, karmaşıklık arttıkça okunabilirlik azalabilir, bu nedenle dikkatlice kullanılmalıdır.
+----------------------------------------------------------
+#Tuples, listelerin değiştirilmeyen bir versiyonlarıdır.
+
+shopping_list=("elma","armut","kitap","kiraz")
+item1,item2,item3,item4=shopping_list
+print(item1)
+print(item2)
+print(item3)
+print(item4)
+print(shopping_list[1])
+print(shopping_list[1:3])
