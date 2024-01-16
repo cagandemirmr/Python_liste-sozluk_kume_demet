@@ -1,0 +1,20 @@
+phone_book={"Çağan Demir":"+90 5455 34354 34534","A-rıza":"+90 05454 45454","Ali Can":"+90 4554 4545 454"}
+print(phone_book["A-rıza"])
+
+#Sıfırdan bir sözlük yapmak için Dict komutunu kullanırız.
+
+inventory=dict()
+inventory["bananas"]=25
+inventory["apples"]=100
+inventory["oranges"]=54
+inventory["watermelons"]=4
+
+for element in inventory:
+ inventory[key] += 100
+    
+print(inventory)
+#key  ler sözlüğün sol tarafındakiler,values lar sözlüğün sağ tarafındaki açıklmalar, items lar ise sözlüğün ifade ettiği kelime ve anlamıdır.
+print(inventory)
+print(inventory.keys())
+print(inventory.values())
+print(inventory.items())
