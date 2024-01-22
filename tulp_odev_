@@ -1,0 +1,4 @@
+TULP'TAN LİSTE ÇIKARMA
+shopping_newlist=[("milk",1),("apples",2),("oranges",1),("bread",1),("onions",2),("bananas",1)]
+for item in shopping_newlist:
+  print(item)
