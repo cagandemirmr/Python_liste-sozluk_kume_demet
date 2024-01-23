@@ -1,0 +1,15 @@
+kelime='BTKAKADEMİ'
+L=[]
+
+'''for i in kelime:
+    L.append(i)'''
+
+L=list(kelime)
+
+L.remove('A')
+L.remove('A')
+L.pop(2)
+#.pop metodu listede belirli ,ndeksteki verinin silinmesini sağlar.
+L.clear()
+#Listeyi tamamen siler.
+print(L)
