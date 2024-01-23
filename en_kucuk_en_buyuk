@@ -11,3 +11,14 @@ for i in range(0,5):
     sayi=int(input("Bir sayi giriniz:"))
     L.append(sayi)
     Topla+=sayi
+-------------------
+L=[]
+Topla=0
+
+for i in range(5):
+      sayi=int(input("Değer giriniz:"))
+      L.append(sayi)
+      Topla+=sayi
+  
+print("En küçük ve en büyük sayıların toplamı:",min(L)+max(L))
+print("Aritmetik ortalama=",Topla/len(L))
