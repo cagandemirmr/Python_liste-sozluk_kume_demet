@@ -1,10 +1,8 @@
+kelime='BTKAKADEMİ'
 L=[]
-Topla=0
 
-for i in range(5):
-      sayi=int(input("Değer giriniz:"))
-      L.append(sayi)
-      Topla+=sayi
-  
-print("En küçük ve en büyük sayıların toplamı:",min(L)+max(L))
-print("Aritmetik ortalama=",Topla/len(L))
+'''for i in kelime:
+    L.append(i)'''
+
+L=list(kelime)
+#2 kod yazmak yerine list() methodunu kullanmak daha akıllıca olabilir.
