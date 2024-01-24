@@ -1,0 +1,14 @@
+L=[12,335,221,65,9856]
+L.sort()
+print(L)
+#Listede değerler küçükten büyüğe sıralanır.
+
+print(L)
+
+#medyan almak için uygulayacağımız kod budur.
+if len(L)%2==0:
+    x=((L[int(round((len(L)/2),0)-1)])+(L[int(round((len(L)/2),0)-1)]))/2
+    print("Medyan",x)
+else:
+    y=L[int(round((len(L)/2),0)-1)]
+    print("Medyan",y)
