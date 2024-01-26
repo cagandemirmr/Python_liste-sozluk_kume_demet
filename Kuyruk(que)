@@ -1,0 +1,23 @@
+#kuyruk en çok tercih edilen olaylardan biridir.
+L=[]
+L.append(4)
+L.append(29)
+L.append(628)
+L.append(7)
+L.pop()
+L.append(2)
+L.pop(0)
+#İlk giren eleman silinir.
+print(L)
+#Bir bant gibi en baştaki eleman gider sonra listeye bir eleman gelir.
+-----------------------------
+L=[]
+
+while True:
+    isim=input("İsim giriniz:")
+    L.append(isim)
+    if isim=='sıradaki':
+        print(L.pop(0))
+    if isim=='bitti':
+        breakL=[]
+------------------------------
