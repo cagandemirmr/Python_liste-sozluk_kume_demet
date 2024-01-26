@@ -6,3 +6,41 @@ S[2]="iki"
 S[3]="üç"
 print(S)
 #Sözlüklerde listelerden faklı olarak value olarak adlandırılan değerler tekrar etmezler.
+---------------------
+S={}
+S[1]="Bir"
+S[2]="iki"
+S[3]="üç"
+
+'''print(S)'''
+
+'''print(S.get(1,"yok"))'''
+#Sözlükte get komutuyla isteğimiz elemanın gösterimini yaparız.
+S.pop(3)
+'''print(S)'''
+#Sözlükten eleman çıkarır ama kesinlikle value girilmelidir.
+print("S sözlüğünün değerleri=",S.values())
+print("S sözlüğünün anahtarları=",S.keys())
+print(S.items())
+------------------------
+BENİM YAPTIĞIM
+#Sözlük Programı
+gun=input("Türkçe gün adı giriniz:")
+days={"pazartesi": "Monday","salı":"Tuesday","çarşamba":"Wednesday","perşembe":"Thursday","cuma":"Friday","cumartesi":"Saturday","pazar":"Sunday"}
+
+
+
+if days.keys()==gun:
+    print("Kelimenin ingilizcesi:",days.get(gun))
+elif days.keys()!=gun:
+    print("böyle bir gün bulunmamaktadır.")
+CHAT GPT NIN YAPTIĞI------------
+gun = input("Türkçe gün adı giriniz:").lower()  # Convert input to lowercase for case-insensitivity
+days = {"pazartesi": "Monday", "salı": "Tuesday", "çarşamba": "Wednesday", "perşembe": "Thursday", "cuma": "Friday", "cumartesi": "Saturday", "pazar": "Sunday"}
+
+if gun in days:
+    print("Kelimenin ingilizcesi:", days[gun])
+else:
+    print("Böyle bir gün bulunmamaktadır.")
+
+
