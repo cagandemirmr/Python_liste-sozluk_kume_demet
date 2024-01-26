@@ -1,0 +1,24 @@
+'''L=[]
+
+while True:
+    hasta_kayit=input("Hastanın ismi ve soyadı:")
+    L.append(hasta_kayit)
+    if hasta_kayit=="sıradaki":
+        print(L[0])
+        L.pop(0)
+    if hasta_kayit=="ok":
+        print("İşlem Tamamlanmıştır.")
+        break
+        '''
+L=[]
+while True:
+    TC=int(input("TC NO:"))
+    if TC in L:
+        i=L.index(TC)
+        print("Sıra No:",i+1)
+    elif TC==0:
+        print("Sıradaki hasta:",L[0])
+        L.pop(0)
+    else:
+        L.append(TC)
+        print("Hastanın kaydı alındı.")
