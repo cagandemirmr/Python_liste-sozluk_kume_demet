@@ -1,0 +1,8 @@
+#Yığında ilk giren son çıkar, son giren ilk çıkar.pop en son elemanı çıkartır.
+L=[]
+L.append(4)
+L.append(29)
+L.append(628)
+L.append(7)
+L.pop()
+print(L)
