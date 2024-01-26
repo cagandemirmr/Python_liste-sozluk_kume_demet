@@ -1,2 +1,8 @@
 Mevsim={"ilkbahar":1,"kış":2,"yaz":3,"sonbahar":4}
 TC=dict([("Talat",1234),("Ali",1235),("hasan",1236)])
+S={}
+S[1]="Bir"
+S[2]="iki"
+S[3]="üç"
+print(S)
+#Sözlüklerde listelerden faklı olarak value olarak adlandırılan değerler tekrar etmezler.
